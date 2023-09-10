@@ -1,0 +1,5 @@
+#List slicing
+friends=["Mohit","Viju","Rohan",45,"Gopal"]
+print(friends[0:4])
+print(friends[:4])
+print(friends[-4:])

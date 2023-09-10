@@ -1,12 +1,19 @@
-mydict={
-    "Pankha":"Fam",
-    "Dabba":"Box",
-    "Vastu":"Item",
-    "chamcha":"spoon"
-}
-print("Options are:",mydict.keys())
-a=input("Enter the hindi word:\n")
-# print("The meaning of the your hindi word is:",mydict[a])
+num1=int(input("Enter number 1:"))
+num2=int(input("Enter number 2:"))
+num3=int(input("Enter number 3:"))
+num4=int(input("Enter number 4:"))
 
-#Below line will not throw an errror if the key is not present in the dicionary.
-print("The meaning of your word is:",mydict.get(a))
+if(num1>num4):
+    f1=num1
+else:
+    f1=num4
+
+if(num2>num3):
+    f2=num2
+else:
+    f2=num4
+
+if(f1>f2):
+    print(str(f1) +" is greatest")
+else:
+    print(str(f2) +" is greatest")
